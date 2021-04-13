@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/assets/index.min.js" />
         <item url="file://$PROJECT_DIR$/assets/main.min.js" />
+        <item url="file://$PROJECT_DIR$/lib/flickity/js.min.js" />
         <item url="file://$PROJECT_DIR$/lib/mdc/init.min.js" />
         <item url="file://$PROJECT_DIR$/lib/mdc/mdc-web.min.js" />
       </sourceFilesUrls>
@@ -11,6 +12,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/assets/index.min.js" />
       <root url="file://$PROJECT_DIR$/assets/main.min.js" />
+      <root url="file://$PROJECT_DIR$/lib/flickity/js.min.js" />
       <root url="file://$PROJECT_DIR$/lib/mdc/init.min.js" />
       <root url="file://$PROJECT_DIR$/lib/mdc/mdc-web.min.js" />
     </CLASSES>

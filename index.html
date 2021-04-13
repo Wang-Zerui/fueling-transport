@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Chem.comm website">
-    <title>Fuiling Tronsport</title>
+    <title>Fueling Transport</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="lib/mdc/mdc-web.min.css">
@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="assets/main.min.css">
     <link rel="stylesheet" href="assets/index.min.css">
     <link rel="stylesheet" href="lib/mdc/fonts.min.css">
+
+    <!-- Libraries -->
+    <script src="lib/flickity/js.min.js" defer></script>
+    <link rel="stylesheet" href="lib/flickity/css.min.css">
+    <link rel="stylesheet" href="lib/flickity/fixup.min.css">
 
     <!-- Scripts -->
     <script src="lib/mdc/mdc-web.min.js" defer></script>
@@ -43,35 +48,28 @@ background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+
     </div>
 </section>
 <section class="center-child min-height-100" style="background-image: url('assets/pictures/horizon.webp');background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover !important;">
-    <div class="carousel margin-top-15 margin-bottom-20 flickity-enabled is-draggable" id="postCarousel" tabindex="0">
-        <div class="flickity-viewport" style="height: 300px; touch-action: pan-y;">
-            <div class="flickity-slider" style="left: 0px; transform: translateX(-100%);">
-                <div data-article-id="6WCoMBYa7cA88qewlzXU" class="carousel-cell" style="position: absolute; left: 0%;"
-                     aria-hidden="true"><img class="mdc-elevation--z16 flickity-lazyloaded"
-                                             onerror="this.src='assets/img/broken_image-dark.svg'" draggable="false"
-                                             src="https://firebasestorage.googleapis.com/v0/b/nush-ne.appspot.com/o/usrImgPosts%2F8b1343a9-f5ef-4bc7-99f1-f4c95207454d?alt=media&amp;token=abe5ef35-8664-4ee2-a9b5-7df1849e42e2">
-                    <div class="content-cover"><h3>Image Caption</h3>
-                        <p class="mdc-typography--body1">This is a really long caption. I might even hit the 100
-                            character limit! In fact, i think i've hit it</p></div>
+    <div class="carousel margin-top-15 margin-bottom-20 flickity-enabled is-draggable" id="postCarousel">
+        <div class="carousel-cell" aria-hidden="true">
+            <img class="mdc-elevation--z16" draggable="false"
+                 data-flickity-lazyload='assets/pictures/grey.webp'>
+            <div class="mdc-card-wrapper__text-section">
+                <div class="mdc-card__text-section-header">
+                    "Hello, fk u"
                 </div>
             </div>
         </div>
-        <button class="flickity-button flickity-prev-next-button previous mdc-ripple-surface mdc-elevation--z20 mdc-ripple-upgraded"
-                type="button" aria-label="Previous" data-mdc-auto-init="MDCRipple"
-                data-mdc-auto-init-state="initialized">
-            <svg class="flickity-button-icon" viewBox="0 0 100 100">
-                <path d="M 69.25 12.457031 C 67.207031 10.417969 63.917969 10.417969 61.875 12.457031 L 27.25 47.082031 C 25.625 48.707031 25.625 51.332031 27.25 52.957031 L 61.875 87.582031 C 63.917969 89.625 67.207031 89.625 69.25 87.582031 C 71.292969 85.542969 71.292969 82.25 69.25 80.207031 L 39.082031 50 L 69.292969 19.792969 C 71.292969 17.792969 71.292969 14.457031 69.25 12.457031 Z M 69.25 12.457031"
-                      class="arrow"></path>
-            </svg>
-        </button>
-        <button class="flickity-button flickity-prev-next-button next mdc-ripple-surface mdc-elevation--z20 mdc-ripple-upgraded"
-                type="button" aria-label="Next" data-mdc-auto-init="MDCRipple" data-mdc-auto-init-state="initialized"
-                style="--mdc-ripple-fg-size:27px; --mdc-ripple-fg-scale:2.78657; --mdc-ripple-fg-translate-start:2.93848px, 22.2792px; --mdc-ripple-fg-translate-end:9.56494px, 9.56488px;">
-            <svg class="flickity-button-icon" viewBox="0 0 100 100">
-                <path d="M 69.25 12.457031 C 67.207031 10.417969 63.917969 10.417969 61.875 12.457031 L 27.25 47.082031 C 25.625 48.707031 25.625 51.332031 27.25 52.957031 L 61.875 87.582031 C 63.917969 89.625 67.207031 89.625 69.25 87.582031 C 71.292969 85.542969 71.292969 82.25 69.25 80.207031 L 39.082031 50 L 69.292969 19.792969 C 71.292969 17.792969 71.292969 14.457031 69.25 12.457031 Z M 69.25 12.457031"
-                      class="arrow" transform="translate(100, 100) rotate(180) "></path>
-            </svg>
-        </button>
+        <div class="carousel-cell" aria-hidden="true">
+            <img class="mdc-elevation--z16" draggable="false"
+                 data-flickity-lazyload='assets/pictures/blue.webp'>
+        </div>
+        <div class="carousel-cell" aria-hidden="true">
+            <img class="mdc-elevation--z16" draggable="false"
+                 data-flickity-lazyload='assets/pictures/green.webp'>
+        </div>
+        <div class="carousel-cell" aria-hidden="true">
+            <img class="mdc-elevation--z16" draggable="false"
+                 data-flickity-lazyload='assets/pictures/turquoise.webp'>
+        </div>
     </div>
 </section>
 </body>
